@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data
-df = pd.read_csv('Data/NBA2000-2009.csv')
+df = pd.read_csv('NBA2000-2009.csv')
 
 # Part One: Find players with double-digit stats in at least 2 categories
 # Calculate total rebounds

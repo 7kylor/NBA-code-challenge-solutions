@@ -9,12 +9,14 @@ This project contains a comprehensive analysis of NBA basketball players' perfor
 ├── Data/
 │   └── NBA2000-2009.csv          # Raw NBA performance data
 ├── Notebook/
-│   └── NBA.ipynb                 # Jupyter notebook with analysis
-├── double_double.csv             # Results from Part One
-├── best_player.csv               # Results from Part Two
-├── max_PTS_of_year.csv           # Results from Part Three
-├── result.zip                    # Compressed results file
-├── nba_analysis.py               # Python implementation
+│   └── NBA.ipynb                 # Original notebook with analysis
+├── Result/
+│   ├── nba_analysis.ipynb        # Updated notebook with proper structure
+    ├── nba_analysis.py               # Python implementation
+│   ├── double_double.csv         # Results from Part One
+│   ├── best_player.csv           # Results from Part Two
+│   └── max_PTS_of_year.csv       # Results from Part Three
+├── Result.zip                    # Compressed results file
 └── README.md                     # This file
 ```
 
@@ -65,9 +67,11 @@ python3 nba_analysis.py
 ### Option 2: Using Jupyter Notebook
 
 ```bash
-cd /Users/taher/Projects/NBA/Notebook
-jupyter notebook NBA.ipynb
+cd /Users/taher/Projects/NBA/Result
+jupyter notebook nba_analysis.ipynb
 ```
+
+**Note**: The updated notebook in the `Result/` directory has better structure and proper file paths.
 
 ### Option 3: Quick Results
 
@@ -194,9 +198,3 @@ This compressed file is ready for submission and contains all required deliverab
 - Data integrity maintained throughout the analysis
 - Results validated against expected output formats
 - Ready for further statistical analysis or visualization
-
----
-
-**Created**: September 2025
-**Data Period**: 2000-2009 NBA Seasons
-**Analysis**: Completed
